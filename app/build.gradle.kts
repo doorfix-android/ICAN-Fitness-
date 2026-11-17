@@ -20,7 +20,8 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-        buildConfigField("String", "API_BASE_URL", "\"https://ican-backend.vercel.app/api/\"")
+                buildConfigField("String", "API_BASE_URL", "\"https://ican-fitness-backend.vercel.app/api/\"")
+ 
     }
 
     buildTypes {
